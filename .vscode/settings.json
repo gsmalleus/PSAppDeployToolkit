@@ -1,0 +1,42 @@
+{
+	"files.exclude": {
+		".editorconfig": true,
+		".gitattributes": true,
+		".github": true,
+		"**/Deploy-Application.exe": true,
+		"**/Deploy-Application.exe.config": true,
+		"**/Thumbs.db": false,
+		"AppDeployToolkitLogo.png": true,
+		"CHANGELOG.txt": true,
+		"COPYING.Lesser": true,
+		"docs": true,
+		"Examples": true,
+		"LICENSE": true,
+		"material": true,
+		"mkdocs.yml": true,
+		"PSAppDeployToolkit.pdf": true,
+		"README.md": true,
+		"Sources": true,
+		"Testing": true,
+		"TODO.txt": true,
+		"wiki": true
+	},
+	"terminal.integrated.profiles.windows": {
+		"PowerShell Devops": {
+			"path": "C:\\Program Files\\PowerShell\\7\\pwsh.exe",
+			"source": "PowerShell Devops",
+			"args": [
+				"-NoLogo",
+				"-NoExit",
+				"-ExecutionPolicy",
+				"RemoteSigned",
+				"-NoProfile"
+			]
+		}
+	},
+	"terminal.integrated.defaultProfile.windows": "PowerShell Devops",
+	"files.defaultLanguage": "powershell",
+	"terminal.integrated.enablePersistentSessions": false,
+	"terminal.integrated.persistentSessionReviveProcess": "never",
+	"terminal.integrated.cwd": ""
+}
