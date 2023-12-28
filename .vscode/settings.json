@@ -3,6 +3,7 @@
 		".editorconfig": true,
 		".gitattributes": true,
 		".github": true,
+		".gitkeep": true,
 		"**/Deploy-Application.exe": true,
 		"**/Deploy-Application.exe.config": true,
 		"**/Thumbs.db": false,
